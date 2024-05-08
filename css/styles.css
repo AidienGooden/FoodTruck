@@ -16,6 +16,8 @@
     position: sticky;
     top:0;
     z-index:999;
+    background: -webkit-linear-gradient(to right, #ff66a3,  #ffe680,  #99e6ff);
+    background: linear-gradient(to right, #ff66a3,  #ffe680,  #99e6ff);
 }
 .navbar_container{
     display:flex;
@@ -69,8 +71,8 @@
     color: #fff;
 }
 #navbar_logo{
-    background: #ff8177;
-    background-image: linear-gradient(to bottom, #fd1d1d, #ffb199);
+    background: #dd362a;
+    background-image: linear-gradient(to bottom, #fd1d1d, #862a0d);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -88,6 +90,13 @@
 .highlight{
     border-bottom: 5px solid #833ab4;
 }
+
+.showcase {
+    width: 100%;
+    height: 93vh;
+    position: relative;
+    background: url("../img/Food\ Truck\ Logo.jpg") center/cover;
+  }
 /************************************************************/
 /* HERO / MAIN Classes and Styling*/
 .hero{
