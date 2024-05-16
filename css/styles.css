@@ -330,6 +330,13 @@
     position: relative;
     background: url("../img/Food\ Truck\ Logo\ Recolor.jpg") center/cover;
 }
+.showcasev2 {
+    width: 100%;
+    height: 160vh;
+    position: relative;
+    background: url("../img/Food\ Truck\ Logo\ Recolor.jpg") center/cover;
+}
+
 /*******************************************************************************/
 .body_About{
     min-height: 100vh;
@@ -341,14 +348,13 @@
 
 .about-section{
     background: url(../img/f22376b26655dbfa80ef47ae53cc5b00.png) no-repeat left;
-    background-size: 55%;
+    background-size: 45%;
     background-color: #fdfdfd;
     overflow: hidden;
-    padding: 100px 0;
 }
 
 .inner-container{
-    width: 55%;
+    width: 60%;
     float: right;
     background-color: #fdfdfd;
     padding: 150px;
@@ -607,17 +613,16 @@
     font-size: 14rem;
 }
 
-.main_img--card {
-    margin: 10px;
-    height: 450px;
-    width: 450px;
+.main_img--card{
+    margin:10px;
+    height:450px;
+    width:450px;
     border-radius: 7px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #fff;
-    background-image: url(../img/f22376b26655dbfa80ef47ae53cc5b00.png) center/cover;
-    z-index: 999;
+    color:#fff;
+    background-image: linear-gradient(-225deg, #231557 0%, #44107a 33%, #ff1361 66%, #fff800 100%);
 }
 
 .main_content h1 {
@@ -654,10 +659,12 @@
 /*Footer Classes and Styling*/
 .footer_container {
     background-color: #131313;
+    background: linear-gradient(to right,   #ff66a3,#ffe680, #99e6ff);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: #000;
 }
 
 .footer_links {
