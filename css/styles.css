@@ -27,7 +27,7 @@
 
 .container_Main {
     max-width: 57%;
-    margin-left:450px ;
+    margin-left:170px ;
     margin-right: auto;
     overflow: hidden;
     padding: 0 2rem;
@@ -43,7 +43,7 @@
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
     margin-bottom: 50px;
-    width: 500px;
+    width: 1050px;
 }
 
 .Activities {
@@ -328,24 +328,34 @@
 .highlight {
     border-bottom: 5px solid #dd362a;
 }
+.header{
+    text-align: center;
+    font-size: 60px;
+}
 
 .showcase {
-    width: 100%;
-    height: 223vh;
+    width: 100vw;
+    aspect-ratio: 684/534;
     position: relative;
-    background: url("../img/ACTUAL\ logo\ save\ done.png") center/cover;
+    background: url("../img/ACTUAL\ logo\ save\ donev2.png") center/cover;
+    background-size: contain;
 }
 .showcasev2 {
-    width: 100%;
-    height: 223vh;
+    width: 100vw;
+    aspect-ratio: 684/534;
     position: relative;
-    background: url("../img/ACTUAL\ logo\ save\ done.png") center/cover;
+    background: url("../img/ACTUAL\ logo\ save\ donev2.png") center/cover;
+    background-size: contain;
 }
 .showcase_menu{
-    width: 100%;
-    height: 150vh;
+    width: 100vw;
+    aspect-ratio: 330/255;
     position: relative;
-    background: url("../img/Untitled-5.png") center/cover;
+    background: url("../img/Untitled-5.png");
+    background-size: contain;
+}
+.Cream{
+    width: 30vw;
 }
 
 /*******************************************************************************/
@@ -419,11 +429,12 @@
 /************************************************************/
 /* HERO / MAIN Classes and Styling*/
 .hero {
-    width: 100%;
-    height: 140vh;
+    width: 160vw;
+    aspect-ratio: 1899/848;
     position: relative;
-    background: url("../img/Untitled-4.png") center/cover;
+    background: url("../img/Untitled-4.png");
     padding: 200px 0;
+    background-size: contain;
 }
 
 .hero_container {
@@ -577,13 +588,13 @@
     transition: .5s ease-in-out;
 }
 .card_7 {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 8px 4px 8px 4px rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px;
     margin-bottom: 30px;
-    width: 500px;
+    width: 400px;
   }
   .card_7:hover {
     box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.2);
@@ -1054,6 +1065,23 @@ p{
   .card_7 {
     width: 400px;
   }
+  .cards{
+    width: 470px;
+   
+  }
+  .container_Main{
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
+  }
+  .Activities{
+    width: 450px;
+    height: 630px;
+  }
+  .about-section{
+    background: url(../img/f22376b26655dbfa80ef47ae53cc5b00.png) no-repeat left;
+     
+    }
 }
 
 /******************************************************************/
