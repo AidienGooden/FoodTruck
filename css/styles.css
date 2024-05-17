@@ -22,28 +22,28 @@
     background: var(--platinum);
     margin: 50px 0;
     margin-top: 0;
+    background: linear-gradient(to right,   #ff66a3,#ffe680, #99e6ff);
 }
 
 .container_Main {
     max-width: 57%;
-    margin: auto;
+    margin-left:450px ;
+    margin-right: auto;
     overflow: hidden;
     padding: 0 2rem;
-    width: 825px;
+    width: 1070px;
     max-width: 1400px;
     padding: 0 15px;
-    margin: 0 auto;
-    margin-top: -370px;
+   
 }
 
 .cards {
     display: flex;
-    padding: 25px 0px;
-    list-style: none;
+    /* list-style: none; */
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
     margin-bottom: 50px;
-    width: 750px;
+    width: 500px;
 }
 
 .Activities {
@@ -56,8 +56,11 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
     scroll-snap-align: start;
     transition: all 0.2s;
-    height: 590px;
+    height: 580px;
     width: 500px;
+    background: -webkit-linear-gradient(to right, #ff66a3, #ffe680, #99e6ff);
+    background: linear-gradient(to right, #ff66a3, #ffe680, #99e6ff);
+
 }
 
 .Activities:not(:last-child) {
@@ -72,6 +75,7 @@
 .Activities .card-title {
     font-size: 20px;
     color: #000;
+    text-align: center;
 }
 
 .Activities .card-content {
@@ -168,7 +172,7 @@
     width: 100%;
     height: 50vh;
     position: relative;
-    background: url("../Img/Mint.jfif") center/cover;
+    background: url("../Img/Mint-Chocolate-Chip-Ice-Cream-Square-2.jpg") center/cover;
 }
 .showcase_Dough {
     width: 100%;
@@ -180,13 +184,13 @@
     width: 100%;
     height: 50vh;
     position: relative;
-    background: url("../Img/Pecan.jfif") center/cover;
+    background: url("../Img/No-Churn-Butter-Pecan-Ice-Cream-Recipe-square.png") center/cover;
 }
 .showcase_Birthday {
     width: 100%;
     height: 50vh;
     position: relative;
-    background: url("../Img/Birthday.jfif") center/cover;
+    background: url("../Img/birthday.jpg") center/cover;
 }
 .showcase_Strawberry {
     width: 100%;
@@ -219,7 +223,7 @@
 }
 
 .Flavors2 {
-    margin-left: 250px;
+    margin-left: 260px;
     margin-top: -120px;
 }
 
@@ -263,6 +267,7 @@
 
 .navbar_item {
     height: 80px;
+   color: #dd362a; 
 }
 
 .navbar_link {
@@ -295,10 +300,10 @@
     border: none;
     outline: none;
     border-radius: 5px;
-    background: #833ab4;
+    background: #dd362a;
     background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
     background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    color: #fff;
+    background: #dd362a;
 }
 
 #navbar_logo {
@@ -316,25 +321,31 @@
 }
 
 .navbar_link:hover {
-    color: #833ab4;
+    color: #dd362a;
     transition: all 0.3s ease;
 }
 
 .highlight {
-    border-bottom: 5px solid #833ab4;
+    border-bottom: 5px solid #dd362a;
 }
 
 .showcase {
     width: 100%;
-    height: 180vh;
+    height: 223vh;
     position: relative;
-    background: url("../img/Food\ Truck\ Logo\ Recolor.jpg") center/cover;
+    background: url("../img/ACTUAL\ logo\ save\ done.png") center/cover;
 }
 .showcasev2 {
     width: 100%;
-    height: 160vh;
+    height: 223vh;
     position: relative;
-    background: url("../img/Food\ Truck\ Logo\ Recolor.jpg") center/cover;
+    background: url("../img/ACTUAL\ logo\ save\ done.png") center/cover;
+}
+.showcase_menu{
+    width: 100%;
+    height: 150vh;
+    position: relative;
+    background: url("../img/Untitled-5.png") center/cover;
 }
 
 /*******************************************************************************/
@@ -409,9 +420,9 @@
 /* HERO / MAIN Classes and Styling*/
 .hero {
     width: 100%;
-    height: 180vh;
+    height: 140vh;
     position: relative;
-    background: url("../img/Food\ Truck\ Logo\ Recolor.jpg") center/cover;
+    background: url("../img/Untitled-4.png") center/cover;
     padding: 200px 0;
 }
 
@@ -531,6 +542,7 @@
     color: #fff;
     background-image: linear-gradient(to right,  #ff66a3,#ffe680, #99e6ff);
     transition: .5s ease-in-out;
+    background: url("../Img/doughlightfulpeanutbutter.jpg") center/cover;
 }
 
 .services_card h2 {
@@ -564,6 +576,19 @@
     transform: scale(1.2);
     transition: .5s ease-in-out;
 }
+.card_7 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    width: 500px;
+  }
+  .card_7:hover {
+    box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
 
 /*for repeated items - AKA Nth Child*/
 .services_card:nth-child(2) {
@@ -573,14 +598,17 @@
 
     /*for new and updated web browsers i.e., Chrome 25+ */
     background: linear-gradient(to right,   #ff66a3,#ffe680, #99e6ff);
+    background: url("../Img/Strawberry-Ice-Cream-Cake-2.jpg") center/cover;
 }
 
 .services_card:nth-child(3) {
     background: linear-gradient(to right,  #ff66a3,#ffe680, #99e6ff);
+    background: url("../Img/Pistachio-Cake-thumbnail.jpg") center/cover;
 }
 
 .services_card:last-child {
     background-image: linear-gradient(-225deg,  #ff66a3,#ffe680, #99e6ff);
+    background: url("../Img/chocolate-oreo-ice-cream-4.jpg") center/cover;
 }
 
 /*********************************************************/
@@ -612,6 +640,12 @@
     text-align: center;
     font-size: 14rem;
 }
+h2{
+    color: #dd362a;
+}
+p{
+    color: #dd362a;
+}
 
 .main_img--card{
     margin:10px;
@@ -621,8 +655,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color:#fff;
+    color: #dd362a;
     background-image: linear-gradient(-225deg, #231557 0%, #44107a 33%, #ff1361 66%, #fff800 100%);
+}
+.Mascot{
+  width: 70vh;
+  height: 60vh;
+  border-radius: 7px;
 }
 
 .main_content h1 {
@@ -689,20 +728,20 @@
 }
 
 .footer_link_items h2 {
-    color: #fff;
+    color: #dd362a;
     margin-bottom: 1rem;
     /*margin: 0 0 1rem 0;*/
 }
 
 .footer_link_items a {
-    color: #fff;
+    color: #dd362a;
     text-decoration: none;
     margin-bottom: .5rem;
     transition: .3s ease-out;
 }
 
 .footer_link_items a:hover {
-    color: #833ab4;
+    color: #dd362a;
     transition: .3s ease-out;
 }
 
@@ -721,7 +760,7 @@
 }
 
 #footer_logo {
-    color: #fff;
+    color: #dd362a;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -730,7 +769,7 @@
 }
 
 .website_rights {
-    color: #fff;
+    color: #dd362a;
 }
 
 .social_media_icons {
@@ -745,14 +784,20 @@
 }
 
 .social_media_link {
-    color: #fff;
+    color: #dd362a;
     font-size: 24px;
 }
 
 .social_media_icons a:hover {
-    color: #833ab4;
+    color:#dd362a;
     transform: scale(2);
     transition: .3s ease-out;
+}
+.Bowls{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    
 }
 
 /************************************/
@@ -955,6 +1000,9 @@
         width: 250px;
         margin-bottom: 1.5rem;
     }
+    .Bowl{
+        grid-template-columns: 1fr;
+    }
 
     .main_content p {
         margin-top: 2rem;
@@ -1002,6 +1050,10 @@
     .social_media {
         margin-bottom: 1.5rem;
     }
+    
+  .card_7 {
+    width: 400px;
+  }
 }
 
 /******************************************************************/
