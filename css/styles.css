@@ -155,61 +155,61 @@
     width: 100%;
     height: 50vh;
     position: relative;
-    background: url("../Img/Vanilla.jpg") center/cover;
+    background: url("../img/Vanilla.jpg") center/cover;
 }
 .showcase_Chocolate {
     width: 100%;
     height: 50vh;
     position: relative;
-    background: url("../Img/Chocolate.jpg") center/cover;
+    background: url("../img/Chocolate.jpg") center/cover;
 }
 .showcase_Cookie {
     width: 100%;
     height: 50vh;
     position: relative;
-    background: url("../Img/cookies-and-cream-ice-cream.jpg") center/cover;
+    background: url("../img/cookies-and-cream-ice-cream.jpg") center/cover;
 }
 .showcase_Mint {
     width: 100%;
     height: 50vh;
     position: relative;
-    background: url("../Img/Mint-Chocolate-Chip-Ice-Cream-Square-2.jpg") center/cover;
+    background: url("../img/Mint-Chocolate-Chip-Ice-Cream-Square-2.jpg") center/cover;
 }
 .showcase_Dough {
     width: 100%;
     height: 50vh;
     position: relative;
-    background: url("../Img/SES-no-churn-pistachio-ice-cream-recipe-5-ingredients-7488379-hero-01-1224d2ae3f424d5dbde94c471136e157.jpg") center/cover;
+    background: url("../img/SES-no-churn-pistachio-ice-cream-recipe-5-ingredients-7488379-hero-01-1224d2ae3f424d5dbde94c471136e157.jpg") center/cover;
 }
 .showcase_Pecan {
     width: 100%;
     height: 50vh;
     position: relative;
-    background: url("../Img/No-Churn-Butter-Pecan-Ice-Cream-Recipe-square.png") center/cover;
+    background: url("../img/No-Churn-Butter-Pecan-Ice-Cream-Recipe-square.png") center/cover;
 }
 .showcase_Birthday {
     width: 100%;
     height: 50vh;
     position: relative;
-    background: url("../Img/birthday.jpg") center/cover;
+    background: url("../img/birthday.jpg") center/cover;
 }
 .showcase_Strawberry {
     width: 100%;
     height: 50vh;
     position: relative;
-    background: url("../Img/Strawberry.jpg") center/cover;
+    background: url("../img/Strawberry.jpg") center/cover;
 }
 .showcase_Moose {
     width: 100%;
     height: 50vh;
     position: relative;
-    background: url("../Img/Moose-Tracks-Ice-Cream.jpg") center/cover;
+    background: url("../img/Moose-Tracks-Ice-Cream.jpg") center/cover;
 }
 .showcase_Mango {
     width: 100%;
     height: 50vh;
     position: relative;
-    background: url("../Img/mango.jpg") center/cover;
+    background: url("../img/mango.jpg") center/cover;
 }
 /************************************************************/
 /* .img_111 {
@@ -562,7 +562,7 @@
     color: #fff;
     background-image: linear-gradient(to right,  #ff66a3,#ffe680, #99e6ff);
     transition: .5s ease-in-out;
-    background: url("../Img/doughlightfulpeanutbutter.jpg") center/cover;
+    background: url("../img/doughlightfulpeanutbutter.jpg") center/cover;
 }
 
 .services_card h2 {
@@ -618,17 +618,17 @@
 
     /*for new and updated web browsers i.e., Chrome 25+ */
     background: linear-gradient(to right,   #ff66a3,#ffe680, #99e6ff);
-    background: url("../Img/Strawberry-Ice-Cream-Cake-2.jpg") center/cover;
+    background: url("../img/Strawberry-Ice-Cream-Cake-2.jpg") center/cover;
 }
 
 .services_card:nth-child(3) {
     background: linear-gradient(to right,  #ff66a3,#ffe680, #99e6ff);
-    background: url("../Img/Pistachio-Cake-thumbnail.jpg") center/cover;
+    background: url("../img/Pistachio-Cake-thumbnail.jpg") center/cover;
 }
 
 .services_card:last-child {
     background-image: linear-gradient(-225deg,  #ff66a3,#ffe680, #99e6ff);
-    background: url("../Img/chocolate-oreo-ice-cream-4.jpg") center/cover;
+    background: url("../img/chocolate-oreo-ice-cream-4.jpg") center/cover;
 }
 
 /*********************************************************/
