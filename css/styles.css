@@ -46,6 +46,7 @@
     width: 1050px;
 }
 
+
 .Activities {
     display: flex;
     flex-direction: column;
@@ -424,6 +425,9 @@
     }
     .inner-container{
         padding: 60px;
+    }
+    .News_Heading{
+        text-align: center;
     }
 }
 /************************************************************/
@@ -920,6 +924,7 @@ p{
     .main_img--container {
         display: flex;
         justify-content: center;
+        margin-top: 5px;
     }
 
     .main_img--card {
@@ -1081,6 +1086,9 @@ p{
   .about-section{
     background: url(../img/f22376b26655dbfa80ef47ae53cc5b00.png) no-repeat left;
      
+    }
+    .Mascot{
+        height: 68vh;
     }
 }
 
